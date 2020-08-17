@@ -172,5 +172,5 @@ img.super-saturated {
 > **Note:** The `url()` function specifies a filter reference to a specific filter element. For example, url(common-filters.svg#foo). If the filter reference to an element that didn't exist or the referenced element is not a filter element, then the whole filter chain is ignored. No filter is applied to the element.
 
 An illustration of the effect 
-![Saturation effect](https://i.gifer.com/KZfs.gif)
+![Saturation effect](https://media.giphy.com/media/U3mWahTkm02VvJL1Ez/giphy.gif)
 ---
