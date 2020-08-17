@@ -21,7 +21,7 @@ img {
 ```
 An illustration of how blurring effect actually works.
 
-![](https://codetea.com/content/images/2017/09/Loading-Animation-CSS.gif width: "50%")  
+![](https://codetea.com/content/images/2017/09/Loading-Animation-CSS.gif )  
 
 ---
 ### Setting the Image Brightness
@@ -72,6 +72,7 @@ img {
 > **Note:** The first and second parameters of the `drop-shadow()` function specifies the horizontal and vertical offset of the shadow respectively, whereas the third parameter specify the blur radius and the last parameter specifies the shadow color, just like the box-shadow property, with one exception, the 'inset' keyword is not allowed.
 
 ![](https://www.shutterstock.com/blog/wp-content/uploads/sites/5/2018/07/Drop-Shadow-Blog-post_Before-After.gif)
+
 ---
 ### Converting an Image to Grayscale
 The images can be converted to grayscale using the `grayscale()` function. A value of 100% is completely grayscale. A value of 0% leaves the image unchanged. Values between 0% and 100% are linear multipliers on the effect. If the amount parameter is missing, a value of 0 is used.
@@ -89,6 +90,7 @@ img.partial-gray {
 An illustration of the effect 
 
 ![Image to grayscale](https://www.huelish.com/uploads/5/7/9/9/57994927/7-wave-ann_orig.gif)
+
 ---
 ### Applying Hue Rotation on Image
 The `hue-rotate()` function applies a hue rotation on the image. The passed parameter defines the number of degrees around the color circle the image samples will be adjusted. A value of 0deg leaves the image unchanged. If the 'angle' parameter is missing, a value of 0deg is used. There is no maximum value, the effect of values above `360deg` wraps around.
@@ -106,6 +108,7 @@ img.hue-wrap {
 An illustration of how this effect works
 
 ![Illustration of Hue rotation](https://media0.giphy.com/media/xUPGcmwJKKRmLNkI7e/giphy.gif)
+
 ---
 ### The Invert Effect
 The invert effect like Photoshop can be applied to an image with the `invert()` function. A value of `100%` or `1` is completely inverted. A value of `0%` leaves the input unchanged. Values between 0% and `100%` are linear multipliers on the effect. If the 'amount' parameter is missing, a value of 0 is used. Negative values are not allowed.
@@ -121,6 +124,7 @@ img.fully-inverted {
 }
 ```
 An illustration of the effect
+
 ![Invert effect](https://i.pinimg.com/originals/80/8a/89/808a89fe727065db730617c37a77f1e2.gif)
 
 ---
@@ -172,5 +176,7 @@ img.super-saturated {
 > **Note:** The `url()` function specifies a filter reference to a specific filter element. For example, url(common-filters.svg#foo). If the filter reference to an element that didn't exist or the referenced element is not a filter element, then the whole filter chain is ignored. No filter is applied to the element.
 
 An illustration of the effect 
+
 ![Saturation effect](https://media1.tenor.com/images/9922c8383afc72984f2530e1054d0733/tenor.gif?itemid=13396150)
+
 ---
