@@ -21,7 +21,7 @@ img {
 ```
 An illustration of how blurring effect actually works.
 
-![](https://codetea.com/content/images/2017/09/Loading-Animation-CSS.gif)
+![](https://codetea.com/content/images/2017/09/Loading-Animation-CSS.gif width: "50%")  
 
 ---
 ### Setting the Image Brightness
@@ -172,5 +172,5 @@ img.super-saturated {
 > **Note:** The `url()` function specifies a filter reference to a specific filter element. For example, url(common-filters.svg#foo). If the filter reference to an element that didn't exist or the referenced element is not a filter element, then the whole filter chain is ignored. No filter is applied to the element.
 
 An illustration of the effect 
-![Saturation effect](https://media.giphy.com/media/U3mWahTkm02VvJL1Ez/giphy.gif)
+![Saturation effect](https://media1.tenor.com/images/9922c8383afc72984f2530e1054d0733/tenor.gif?itemid=13396150)
 ---
